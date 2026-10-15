@@ -7,7 +7,7 @@ frontend:
         - npm ci --legacy-peer-deps
     build:
       commands:
-        - npm run build
+        - NODE_OPTIONS=--openssl-legacy-provider npm run build
   artifacts:
     baseDirectory: amazon-frontend/build
     files:
