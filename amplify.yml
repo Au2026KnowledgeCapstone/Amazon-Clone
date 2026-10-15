@@ -1,0 +1,17 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd amazon-frontend
+        - npm ci
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: amazon-frontend/build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - amazon-frontend/node_modules/**/*
