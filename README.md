@@ -4,7 +4,7 @@ Hi! I'm Debjit, a **MERN Stack Developer**. This is a clone of popular e-commmer
 I have created it with **React** in frontend,  **Node and Express** for backend and **MongoDB** for storing data.
 <br>
 <br>
-> ### Web App Link - https://amazon-clone-eight-rho.vercel.app/
+> ### Web App Link - https://master.d3kb2z4yhoxwt8.amplifyapp.com/
 
 
 <br>
