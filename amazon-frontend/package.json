@@ -49,7 +49,12 @@
   "devDependencies": {
     "eslint": "^7.16.0"
   },
+  "overrides": {
+    "postcss-safe-parser": {
+      "postcss": "^8.4.31"
+    }
+  },
   "engines": {
-    "node": "18.x"
+    "node": ">=18"
   }
 }
